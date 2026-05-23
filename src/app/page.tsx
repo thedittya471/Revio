@@ -1,6 +1,5 @@
 import {Button} from "@/components/ui/button"
 import { HealthCheck } from "@/components/ui/health-check"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Home() {
@@ -12,10 +11,10 @@ export default function Home() {
       </div>
       <div className="flex gap-4">
         <Button asChild>
-          <Link href="/login">Login</Link>
+          <Link href="/signIn">SignIn</Link>
         </Button>
         <Button asChild>
-          <Link href="/register">Register</Link>
+          <Link href="/signUp">SignUp</Link>
         </Button>
       </div>
       <HealthCheck />
